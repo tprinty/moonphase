@@ -1,8 +1,13 @@
 #!/usr/bin/env python
 """
-moonphase.py - Calculate Lunar Phase
-Author: Sean B. Palmer, inamidst.com
-Cf. http://en.wikipedia.org/wiki/Lunar_phase#Lunar_phase_calculation
+
+Modified code so that I could pass in a Month Day and Year on the command line.
+
+
+This is modified code from.  
+	moonphase.py - Calculate Lunar Phase
+	Author: Sean B. Palmer, inamidst.com
+	Cf. http://en.wikipedia.org/wiki/Lunar_phase#Lunar_phase_calculation
 """
 
 import math, decimal, datetime, sys, getopt
